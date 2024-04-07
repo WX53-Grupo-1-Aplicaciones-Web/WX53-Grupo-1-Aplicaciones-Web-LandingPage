@@ -5,6 +5,47 @@
     width: 100%;
     height: 100vh; /* Esto hará que la sección tenga la altura de la ventana del navegador */
 }
+.inicio-content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+
+}
+.inicio-content h2 {
+    color: white; /* Cambia el color del texto a negro */
+    font-size: 50px;
+}
+footer {
+    background-color: #002C3E;
+    padding: 20px 0;
+    color: white;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li h4 {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
 main {
     margin-top: 150px; /* Ajusta este valor según la altura de tu encabezado */
 }
