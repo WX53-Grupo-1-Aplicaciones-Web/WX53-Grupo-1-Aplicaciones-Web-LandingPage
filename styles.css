@@ -18,6 +18,38 @@
     color: white; /* Cambia el color del texto a negro */
     font-size: 50px;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(0deg);
+}
+
+#testimonios {
+    text-align: center;
+}
+
+#testimonios img {
+    width: 800px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonios p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+#testimonios h2 {
+    color:black;
+}
+
+#testimonios p:last-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #002C3E;
     padding: 20px 0;
