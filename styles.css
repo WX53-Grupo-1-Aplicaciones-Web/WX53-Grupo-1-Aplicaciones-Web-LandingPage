@@ -1,6 +1,14 @@
+main {
+    margin-top: 150px; /* Ajusta este valor según la altura de tu encabezado */
+}
 header {
     height: 150px;
     background-color: #002C3E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
 }
 
 .header-container {
