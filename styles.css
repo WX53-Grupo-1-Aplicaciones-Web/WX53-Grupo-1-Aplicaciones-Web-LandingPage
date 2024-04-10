@@ -18,6 +18,32 @@
     color: white; /* Cambia el color del texto a negro */
     font-size: 50px;
 }
+#about-us {
+    padding: 50px 0;
+    background-color: #EBF2FA;
+}
+
+#about-us img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+
+}
+
+#about-us h2 {
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-right: 5px;
+    text-align: justify;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(1) sepia(1) saturate(5) hue-rotate(0deg);
