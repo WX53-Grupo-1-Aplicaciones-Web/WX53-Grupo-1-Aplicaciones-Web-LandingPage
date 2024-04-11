@@ -276,3 +276,23 @@ h2 {
     width: 100%;
 }
 
+#productos {
+    background-color: #EBF2FA; 
+    width: 100%;
+}
+
+.buscar {
+    position: relative;
+    padding: 5px;
+}
+
+.buscar input {
+    width: 600px;
+    height: 40px;
+    padding: 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
