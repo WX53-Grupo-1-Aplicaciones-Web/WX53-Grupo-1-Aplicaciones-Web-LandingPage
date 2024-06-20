@@ -1,28 +1,3 @@
-/* Estilos para pantallas de tablet */
-@media (max-width: 768px) {
-    header img {
-        height: 80px;
-        width: 80px;
-        margin-top: 20px;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .service-card {
-        margin-bottom: 10px;
-    }
-
-    #testimonios img {
-        width: 600px;
-        height: 400px;
-    }
-}
-
-/* Estilos para pantallas de móvil */
 @media (max-width: 480px) {
     header img {
         height: 60px;
@@ -36,33 +11,97 @@
         margin-top: 15px;
     }
 
+    .inicio-content h2 {
+        font-size: 24px; 
+    }
+
     .service-card {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        width: 100%; 
+        height: auto;
     }
 
     #testimonios img {
-        width: 300px;
-        height: 200px;
+        width: 100%;
+        height: auto; 
+        border-radius: 10px; 
+    }
+
+    #testimonios p {
+        font-size: 14px; 
+        margin: 0 10px; 
+    }
+
+    footer ul {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    footer ul li {
+        margin-bottom: 20px;
+    }
+
+    footer ul li h4 {
+        font-size: 18px; 
+    }
+
+    footer p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    
+    .service-card .card-title {
+        font-size: 16px; 
+    }
+
+    .service-card .card-text {
+        font-size: 14px; 
+    }
+
+ 
+    #contacto .card.contact-card {
+        padding: 10px; 
+    }
+
+    #contacto .card.contact-card .card-title {
+        font-size: 16px; 
+    }
+
+    #contacto .card.contact-card .card-text {
+        font-size: 14px; 
+    }
+
+    #contacto form .form-control {
+        font-size: 14px; 
+    }
+
+    #contacto form button {
+        font-size: 14px; 
     }
 }
+
+
 #inicio-section {
-    background-image: url('images/inicioArtisania.png'); /* Reemplaza con la ruta a tu imagen */
+    background-image: url('images/inicioArtisania.png'); 
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh; /* Esto hará que la sección tenga la altura de la ventana del navegador */
+    height: 100vh; 
 }
 .inicio-content {
     position: absolute;
-    top: 80%;
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-weight: bold;
-
 }
 .inicio-content h2 {
-    color: white; /* Cambia el color del texto a negro */
+    color: white; 
     font-size: 50px;
 }
 #about-us {
@@ -73,10 +112,6 @@
 #about-us img {
     max-width: 100%;
     height: auto;
-    float: left;
-    margin-top: 100px;
-    margin-left: -100px;
-
 }
 
 #about-us h2 {
@@ -88,7 +123,6 @@
 #about-us p {
     font-size: 16px;
     line-height: 1.8;
-    margin-right: 5px;
     text-align: justify;
 }
 .carousel-control-prev-icon,
@@ -110,12 +144,9 @@
 #testimonios p {
     font-size: 20px;
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-
 }
 #testimonios h2 {
-    color:black;
+    color: black;
 }
 
 #testimonios p:last-child {
@@ -152,7 +183,7 @@ footer p {
     margin-top: 20px;
 }
 main {
-    margin-top: 150px; /* Ajusta este valor según la altura de tu encabezado */
+    margin-top: 150px; 
 }
 header {
     height: 150px;
@@ -161,7 +192,6 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-
 }
 
 .header-container {
@@ -182,7 +212,6 @@ header nav ul {
     display: flex;
     gap: 35px;
     margin-top: 35px;
-
 }
 
 header nav ul li a {
@@ -191,7 +220,7 @@ header nav ul li a {
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilo para los títulos de sección */
+
 h2 {
     color: #3498db;
 }
@@ -200,7 +229,6 @@ h2 {
     background-color: #EBF2FA; 
     width: 100%;
 }
-
 
 .service-card {
     border: 1px solid #e0e0e0;
@@ -229,11 +257,9 @@ h2 {
     font-size: 16px;
 }
 
-
 .service-card:hover {
     background-color: #f8f8f8;
 }
-
 
 .card img {
     width: 100%;
@@ -248,24 +274,20 @@ h2 {
     margin: 10px;
 }
 
-
 .card.contact-card .card-body {
     padding: 20px;
 }
-
 
 .card.contact-card .card-img-top {
     max-height: 90px;
     object-fit: cover;
 }
 
-
 .card.contact-card .card-title {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
 }
-
 
 .card.contact-card .card-text {
     font-size: 16px;
@@ -287,9 +309,10 @@ h2 {
 }
 
 .buscar input {
-    width: 600px;
+    width: 100%; 
+    max-width: 600px; 
     height: 40px;
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     color: #000;
     outline: none;
