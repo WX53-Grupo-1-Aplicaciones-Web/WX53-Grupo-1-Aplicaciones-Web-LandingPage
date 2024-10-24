@@ -1,23 +1,28 @@
-
+/* styles.css */
+.bordered-text {
+    color: white; /* Set the text color */
+    -webkit-text-stroke: 2px black; /* Apply the border to each letter */
+}
 
 #inicio-section {
-    background-image: url('images/inicioArtisania.png'); 
+    background-image: url('images/inicioArtisania.png');
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
 }
 .inicio-content {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-weight: bold;
 }
 .inicio-content h2 {
-    color: white; 
+    color: white;
     font-size: 50px;
+    margin-top: 80px;
 }
 #about-us {
     padding: 50px 0;
@@ -98,7 +103,7 @@ footer p {
     margin-top: 20px;
 }
 main {
-    margin-top: 150px; 
+    margin-top: 150px;
 }
 header {
     height: 150px;
@@ -141,7 +146,7 @@ h2 {
 }
 
 #servicios {
-    background-color: #EBF2FA; 
+    background-color: #EBF2FA;
     width: 100%;
 }
 
@@ -209,12 +214,12 @@ h2 {
 }
 
 #contacto {
-    background-color: #EBF2FA; 
+    background-color: #EBF2FA;
     width: 100%;
 }
 
 #productos {
-    background-color: #EBF2FA; 
+    background-color: #EBF2FA;
     width: 100%;
 }
 
@@ -224,8 +229,8 @@ h2 {
 }
 
 .buscar input {
-    width: 100%; 
-    max-width: 600px; 
+    width: 100%;
+    max-width: 600px;
     height: 40px;
     padding: 10px;
     font-size: 18px;
@@ -328,4 +333,5 @@ h2 {
     #contacto form button {
         font-size: 14px;
     }
+
 }
