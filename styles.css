@@ -240,7 +240,72 @@ h2 {
 }
 
 .navbar-custom {
-    background-color: #002C3E;
+    background-color: #000983;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.navbar-custom .navbar-brand img {
+
+    transition: transform 0.3s ease;
+}
+.navbar-custom .navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #008aff;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2899, 99, 99, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Resaltar el botón "¡Regístrate!" */
+.navbar-custom .btn-primary {
+    background-color: #009aff;
+    border-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-custom .btn-primary:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* Cambiar el texto del botón */
+.navbar-custom .btn-primary::after {
+    content: " ¡Regístrate!";
+}
+
+/* Responsivo */
+@media (max-width: 991px) {
+    .navbar-custom .navbar-nav .nav-link {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .navbar-custom .btn-primary {
+        width: 100%;
+    }
 }
 
 .navbar-toggler-icon {
@@ -331,6 +396,11 @@ h2 {
 
     #contacto form button {
         font-size: 14px;
+    }
+    .navbar .btn {
+        margin-left: 10px;
+        font-size: 16px;
+        padding: 5px 15px;
     }
 
 }
